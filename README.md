@@ -29,4 +29,5 @@ fig = chart_data(df, 40, 'Min Dist', 'Classification', ['MEAS', 'IND', 'INF'], [
 
 ## Function output
  The output of the function is a chart with the minimum or average distance on X axis, frequency (%) on the Y axis, distance variable statistics, and coloured by the classification variable - see below.
+ 
  ![This is an image](Histogram.png)
