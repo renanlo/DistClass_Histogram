@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
  - xdist: distance variable in the dataframe. It must be numeric.
  - yvar: classification variable. It can be numeric or alphanumeric.
  - clas: string with the classification cathegories given by the user, and it needs to be in order from measured to inferred, or 1 to 3, depending on the user's workflow. Example: ['MEAS', 'IND', 'INF'] or [1, 2, 3].
- - position: X and Y position of the label, according with the X and Y chart axis
+ - position: X and Y position of the label, according with the X and Y chart axis, is a string format. Example: [20, 10] - the label will be positioned at 20 units at X axis and 10 units at axis Y.
 
 All of the input variables are mandatory. See below an example using the default database on the repository.
 ```python
