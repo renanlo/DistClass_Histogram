@@ -31,3 +31,5 @@ fig = chart_data(df, 40, 'Min Dist', 'Classification', ['MEAS', 'IND', 'INF'], [
  The output of the function is a chart with the minimum or average distance on X axis, frequency (%) on the Y axis, distance variable statistics, and coloured by the classification variable - see below.
  
  ![This is an image](Histogram.png)
+
+For a better experience, there is a Jupyter Notebook file and a default database in the repository to allow any user to run and reproduce the result above.
